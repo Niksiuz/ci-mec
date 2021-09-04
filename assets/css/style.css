@@ -858,20 +858,6 @@ section {
   background: var(--gris);
   padding: 10px 15px;
 }
-/*
-.portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 0px;
-}
-
-.portfolio .portfolio-item .portfolio-info p {
-  color: #f9fcfe;
-  font-size: 14px;
-  margin-bottom: 0;
-} */
 
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
@@ -893,11 +879,8 @@ section {
 .portfolio .portfolio-item:hover .portfolio-img img {
   transform: scale(1.15);
 }
-/*
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-}
-*/
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
