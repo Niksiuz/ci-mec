@@ -115,11 +115,11 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(255, 255, 255, 0.63);
+  background: rgba(104, 103, 103, 0.63);
 }
 
 #header .logo {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: var(--gris);
+  color: var(--blanco);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -208,14 +208,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
-  color: var(--gris);
+  color: var(--blanco);
   font-size: 14px;
   border: 2px solid var(--primario);    
   font-weight: 600;
 }
 
 .navbar .getstarted:hover {
-  color: #fff;
+  color: var(--blanco);
   background: var(--primario);
 }
 
@@ -314,11 +314,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section #f1f1f191, #ffc1077a)
 --------------------------------------------------------------*/
 #hero {
   
-  background: linear-gradient(#f1f1f191, #ffc1077a),  url("../img/grua-1.jpg") fixed center center ; 
+  background: linear-gradient(#9e9e9e91, #9e9e9e91),  url("../img/grua-1.jpg") fixed center center ; 
   background-size: cover;
   padding: 120px 0;
   width: 100%;
