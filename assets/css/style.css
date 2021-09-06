@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: var(--gris);
 }
 
 #preloader:before {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid var(--gris);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 30px 0;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: var(--gris);
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .getstarted {
   margin: 15px;
-  color: #37517e;
+  color: var(--gris);
 }
 
 
@@ -316,7 +316,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/grua-1.jpg") fixed center center ; 
+  
+  background: linear-gradient(#e9ecef61, #ffc1077a), url("../img/grua-1.jpg") fixed center center ; 
   background-size: cover;
   padding: 120px 0;
   width: 100%;
@@ -738,7 +739,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: var(--gris);
   transition: ease-in-out 0.3s;
 }
 
@@ -760,7 +761,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/grua-2.jpg") fixed center center;
+  background: linear-gradient(#6c757db8, #ffc1078c), url("../img/grua-2.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -980,7 +981,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: var(--gris);
 }
 
 .team .member span {
@@ -1026,7 +1027,7 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: var(--gris);
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1107,7 +1108,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: var(--gris);
   transition: 0.3s;
 }
 
@@ -1343,7 +1344,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: var(--gris);
 }
 
 .breadcrumbs ol {
@@ -1371,7 +1372,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: var(--gris);
 }
 
 
@@ -1397,7 +1398,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: var(--gris);
   position: relative;
   padding-bottom: 12px;
 }
